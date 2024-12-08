@@ -19,6 +19,7 @@
 </style>
 </body>
 </html>
+<?php
 <form action="Web_submit.php" method="POST" onsubmit="return validateform()" >
     <p style="color: white; font-family: 'Times New Roman';"><strong>Nama:</p> <input type="text" name="username" required size="60">
         <br>
@@ -52,6 +53,7 @@
      </tr>
     <input type="submit" value="Berikutnya">
 </form>
+?>
 
 <script>
     function validateform() {
